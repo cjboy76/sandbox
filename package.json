@@ -35,11 +35,6 @@
     "typescript": "^5.4.2",
     "vite": "^5.1.6"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{ts,tsx}": [
       "eslint --fix",
@@ -48,5 +43,6 @@
     "*.{css}": [
       "prettier --write"
     ]
-  }
+  },
+  "packageManager": "pnpm@10.0.0"
 }
